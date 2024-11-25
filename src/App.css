@@ -16,6 +16,35 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.book-item p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+}
+.book-item:hover p {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+
+nav a {
+  padding: 10px 15px;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+nav a:hover {
+  background-color: #444;
+}
+
 
 @keyframes logo-spin {
   from {
